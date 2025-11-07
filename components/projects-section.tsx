@@ -123,17 +123,6 @@ export function ProjectsSection() {
 
                 <div className="flex gap-4">
                   <Button
-                    size="lg"
-                    className="rounded-[2rem] bg-primary hover:bg-primary/90 text-primary-foreground font-black transition-all duration-300 hover:scale-110 hover:-rotate-2 border-4 border-foreground px-8"
-                    style={{ boxShadow: "var(--shadow-lg)" }}
-                    asChild
-                  >
-                    <a href={project.live} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="w-5 h-5 mr-3 animate-bounce" />
-                      {ui.buttons.liveDemo}
-                    </a>
-                  </Button>
-                  <Button
                     variant="outline"
                     size="lg"
                     className="rounded-[2rem] border-4 border-foreground text-foreground hover:bg-foreground hover:text-background font-black transition-all duration-300 hover:scale-110 hover:rotate-2 bg-card px-8"
