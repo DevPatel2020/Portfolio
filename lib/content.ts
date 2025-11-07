@@ -258,6 +258,33 @@ export const portfolioContent = {
       },
     ],
   },
+  certificates: {
+    title: "Certificates",
+    subtitle: "Credentials & Achievements",
+    description: "Selected certifications highlighting continuous learning and applied expertise.",
+    list: [
+      {
+        id: 1,
+        title: "Google Advanced Data Analytics",
+        issuer: "Google Career Certificates",
+        date: "Nov 5, 2025",
+        description:
+          "Completed the eight-course advanced analytics track covering Python, statistics, regression, machine learning, and a hands-on capstone focused on translating large datasets into business insights.",
+        image: "/certificates/Google Advanced Data Analystic.jpg",
+        link: "https://coursera.org/verify/professional-cert/CGKZA31RKG5C",
+      },
+      {
+        id: 2,
+        title: "Microsoft AI & ML Engineering",
+        issuer: "Microsoft",
+        date: "Nov 5, 2025",
+        description:
+          "Five-course program on Azure-powered AI that covered ML algorithms, intelligent agent design, deployment pipelines, and a capstone on real-world AI implementation.",
+        image: "/certificates/Microsoft AI & ML Engineering.jpg",
+        link: "https://www.coursera.org/account/accomplishments/professional-cert/B24ZI94PEEMD",
+      },
+    ],
+  },
   ui: {
     buttons: {
       getInTouch: "Get In Touch",
